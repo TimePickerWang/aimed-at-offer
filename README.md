@@ -1,2 +1,2 @@
-# aimed-at-offer
-剑指offer的刷题笔记，用java和python解决
+﻿# aimed-at-offer
+个人刷剑指offer的笔记，在牛客网上实验。若无特别说明，文章中的代码均是本人编码，并直接粘贴到牛客网可运行通过。若有问题，欢迎交流
