@@ -42,19 +42,4 @@ public class Test39 {
 		return left > right ? left + 1 : right + 1;
 	}
 
-	public static void main(String[] args) {
-		Test39 test39 = new Test39();
-		TreeInfo treeInfo = new TreeInfo();
-		TreeNode root = treeInfo.treeSet();
-		System.out.println(test39.TreeDepth(root));
-		
-		TreeNode a = new TreeNode(1);
-		TreeNode b = new TreeNode(2);
-		TreeNode c = new TreeNode(3);
-		TreeNode d = new TreeNode(4);
-		a.left = b;
-		b.left = c;
-		c.left = d;
-		System.out.println(test39.IsBalanced_Solution(a));
-	}
 }

@@ -45,18 +45,4 @@ public class Test06 {
 		return root;
 	}
 
-	public static void main(String[] args) {
-		int[] pre = { 1, 2, 4, 7, 3, 5, 6, 8 };
-		int[] in = { 4, 7, 2, 1, 5, 3, 8, 6 };
-		TreeNode rootNode = new Test06().reConstructBinaryTree(pre, in);
-		System.out.println("根节点：" + rootNode.val);
-
-		TreeInfo treeInfo = new TreeInfo();
-		System.out.print("后序遍历：");
-		treeInfo.houxuDigui(rootNode); // 后序遍历
-		for (Integer integer : treeInfo.houxuNumList) {
-			System.out.print(integer + ",");
-		}
-	}
-
 }

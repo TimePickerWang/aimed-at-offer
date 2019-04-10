@@ -47,30 +47,4 @@ public class Test62 {
 		return node;
 	}
 
-	public static void main(String[] args) {
-		Test62 test62 = new Test62();
-
-		TreeNode a = new TreeNode(1);
-		TreeNode b = new TreeNode(2);
-		TreeNode c = new TreeNode(3);
-		TreeNode d = new TreeNode(4);
-		TreeNode e = new TreeNode(5);
-		TreeNode f = new TreeNode(6);
-
-		a.left = b;
-		a.right = c;
-		b.left = d;
-		c.left = e;
-		c.right = f;
-
-		String str = test62.Serialize(a);
-		System.out.println(str);
-
-		TreeNode node = test62.Deserialize(str);
-		TreeInfo treeInfo = new TreeInfo();
-		treeInfo.qinaxuDigui(node);
-		for (Integer num : treeInfo.qianxuNumList) {
-			System.out.print(num + " ");
-		}
-	}
 }

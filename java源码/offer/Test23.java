@@ -11,6 +11,7 @@ import java.util.Queue;
  */
 
 public class Test23 {
+	
 	public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
 		ArrayList<Integer> arrayList = new ArrayList<>();
 		if (root != null) {
@@ -28,15 +29,6 @@ public class Test23 {
 			}
 		}
 		return arrayList;
-	}
-
-	public static void main(String[] args) {
-		TreeInfo treeInfo = new TreeInfo();
-		TreeNode rootNode = treeInfo.treeSet();
-		ArrayList<Integer> array = new Test23().PrintFromTopToBottom(rootNode);
-		for (Integer integer : array) {
-			System.out.print(integer + ", ");
-		}
 	}
 
 }

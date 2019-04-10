@@ -27,26 +27,4 @@ public class Test19 {
 		}
 	}
 
-	public static void main(String[] args) {
-		TreeInfo treeInfo = new TreeInfo();
-		TreeNode root = treeInfo.treeSet();
-
-		treeInfo.qinaxuDigui(root); // 前序遍历
-		System.out.print("前序遍历：");
-		for (Integer integer : treeInfo.qianxuNumList) {
-			System.out.print(integer + ",");
-		}
-
-		new Test19().Mirror(root);// 求镜像树
-		System.out.println();
-		
-		TreeInfo newTree = new TreeInfo();
-		newTree.qinaxuDigui(root); // 前序遍历
-		System.out.print("前序遍历：");
-		for (Integer integer : newTree.qianxuNumList) {
-			System.out.print(integer + ",");
-		}
-
-	}
-
 }
